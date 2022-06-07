@@ -6,7 +6,7 @@ test:
 	python -m pytest -vv test/test_hello.py
 
 format:
-	black *.py
+	black app/*.py
 
 
 lint:
